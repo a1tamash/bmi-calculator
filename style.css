@@ -1,0 +1,51 @@
+body {
+	background-color: grey;
+}
+h1 {
+	text-align: center;
+	color: rgb(233, 45, 7);
+}
+h2 {
+	text-align: center;
+}
+.form {
+	/* border: 1px solid black; */
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+
+.form > div {
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: center;
+	margin: 25px;
+}
+button {
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+}
+button:hover {
+	color: black;
+	background-color: white;
+}
+
+.inForm {
+	font-size: xx-large;
+	font-weight: 500;
+}
+.inForm:hover {
+	cursor: pointer;
+}
+
+input {
+	padding: 14px;
+	margin-left: 15px;
+}
+
+#results {
+	text-align: center;
+	color: rgb(37, 233, 7);
+	font-weight: 700;
+	font-size: 3rem;
+}
